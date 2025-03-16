@@ -31,6 +31,9 @@ sudo nixos-install --flake .#nas
 
 # After installation, apply changes
 sudo nixos-rebuild switch --flake .#nas
+
+# Setup tailscale
+sudo tailscale up
 ```
 
 ## Contributing

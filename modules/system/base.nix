@@ -15,6 +15,7 @@
     wget
     htop
     gh
+    tailscale
   ];
   
   # Shell aliases
